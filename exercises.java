@@ -2,18 +2,21 @@ import java.util.Scanner;
 
 class Exercise1 {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("Olá, Mundo!");
     }
 }
 
 class Exercise2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the first number: ");
+        
+        System.out.print("Digite o primeiro número: ");
         int num1 = scanner.nextInt();
-        System.out.print("Enter the second number: ");
+        
+        System.out.print("Digite o segundo número: ");
         int num2 = scanner.nextInt();
-        System.out.println("The sum is: " + (num1 + num2));
+        
+        System.out.println("A soma é: " + (num1 + num2));
         scanner.close();
     }
 }
@@ -21,13 +24,16 @@ class Exercise2 {
 class Exercise3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        
+        System.out.print("Digite um número: ");
         int num = scanner.nextInt();
+        
         if (num % 2 == 0) {
-            System.out.println("The number " + num + " is even.");
+            System.out.println("O número " + num + " é par.");
         } else {
-            System.out.println("The number " + num + " is odd.");
+            System.out.println("O número " + num + " é ímpar.");
         }
+        
         scanner.close();
     }
 }
@@ -35,11 +41,14 @@ class Exercise3 {
 class Exercise4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the first number: ");
+        
+        System.out.print("Digite o primeiro número: ");
         int num1 = scanner.nextInt();
-        System.out.print("Enter the second number: ");
+        
+        System.out.print("Digite o segundo número: ");
         int num2 = scanner.nextInt();
-        System.out.println("The difference is: " + (num1 - num2));
+        
+        System.out.println("A diferença é: " + (num1 - num2));
         scanner.close();
     }
 }
@@ -47,11 +56,14 @@ class Exercise4 {
 class Exercise5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the first number: ");
+        
+        System.out.print("Digite o primeiro número: ");
         int num1 = scanner.nextInt();
-        System.out.print("Enter the second number: ");
+        
+        System.out.print("Digite o segundo número: ");
         int num2 = scanner.nextInt();
-        System.out.println("The product is: " + (num1 * num2));
+        
+        System.out.println("O produto é: " + (num1 * num2));
         scanner.close();
     }
 }
@@ -59,13 +71,16 @@ class Exercise5 {
 class Exercise6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your age: ");
+        
+        System.out.print("Digite sua idade: ");
         int age = scanner.nextInt();
+        
         if (age >= 18) {
-            System.out.println("You are an adult.");
+            System.out.println("Você é maior de idade.");
         } else {
-            System.out.println("You are a minor.");
+            System.out.println("Você é menor de idade.");
         }
+        
         scanner.close();
     }
 }
