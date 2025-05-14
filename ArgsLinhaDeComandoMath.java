@@ -2,8 +2,7 @@ import java.util.Locale;
 
 public class ArgsLinhaDeComandoMath {
     public static void main(String[] args) {
-        @SuppressWarnings("deprecation")
-        Locale locale = new Locale("en", "US");
+        Locale locale = Locale.US;
         if (args.length == 0) {
             System.err.println("Precisa de Argumentos");
             System.exit(0);
